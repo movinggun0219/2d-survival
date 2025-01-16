@@ -14,6 +14,7 @@ public class ResManager : Singleton<ResManager>
     public class CharSprite
     {
         public Sprite[] deadSprite;
+        public Sprite[] hitSprite;
         public Sprite[] runSprite;
         public Sprite[] standSprite;
     }
@@ -25,6 +26,7 @@ public class ResManager : Singleton<ResManager>
         public CharSprite charSprite;
     }
     public CharacterSprite[] charSprite;
-    
+    public CharacterSprite[] enemySprite;
 
+    public List<Sprite> playerBulletSprite;
 }
