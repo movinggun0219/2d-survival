@@ -10,7 +10,9 @@ public class Enemy : MonoBehaviour
     protected Player p;
     protected SpriteAnimation sa;
     protected SpriteRenderer sr;
-    
+
+    protected EnemyData data =  new EnemyData();
+
     void Update()
     {
         if(p == null)
@@ -20,7 +22,7 @@ public class Enemy : MonoBehaviour
         }
 
         Vector2 pos = p.transform.position - transform.position;
-        Vector2 dir = pos.normalized * Time.deltaTime * 1.5f;
+        Vector2 dir = pos.normalized * Time.deltaTime * data.speed;
 
         if (dir.normalized.x > 0)
         {
@@ -36,6 +38,20 @@ public class Enemy : MonoBehaviour
         {
             transform.Translate(dir);
         }
-        
+    }
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        Bullet e = collision.GetComponent<Bullet>();
+        if (e != null)
+        {
+            Debug.Log("Hit");
+            Destroy(collision.gameObject);
+
+            data.hp -= 20;
+            if (data.hp <= 0)
+            {
+                Destroy(e.gameObject);
+            }
+        }
     }
 }

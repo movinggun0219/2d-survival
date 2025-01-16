@@ -18,6 +18,13 @@ public class PlayerData
     public int level;
     public string name;
 }
+
+public class EnemyData
+{
+    public float speed;
+    public int hp;
+}
+
 public class GameManager : Singleton<GameManager>
 {
     public int selectNum = 0;

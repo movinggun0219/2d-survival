@@ -7,6 +7,9 @@ public class Enemy0 : Enemy
     
     void Start()
     {
+        data.speed = 1.5f;
+        data.hp = 60;
+
         sa = GetComponent<SpriteAnimation>();
         sr = GetComponent<SpriteRenderer>();
 

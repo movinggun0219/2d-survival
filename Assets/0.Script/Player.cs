@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     public float delay;
 
-    public Enemy e;
+    
     void Start()
     {
         sa = GetComponent<SpriteAnimation>();
@@ -29,16 +29,20 @@ public class Player : MonoBehaviour
     {
         Move();
 
-        SetRotFirePos(e.transform);
-
-        shieldParent.Rotate(Vector3.back * Time.deltaTime * 30f);
+        Enemy[] enemies = FindObjectsOfType<Enemy>();
 
         fireTimer += Time.deltaTime;
-        if(fireTimer > delay)
+        if (enemies.Length != 0)
         {
-            fireTimer = 0;
-            Instantiate(bullet, firePos).transform.SetParent(bulletTrans);
+            SetRotFirePos(enemies[0].transform);
+            if (fireTimer > delay)
+            {
+                fireTimer = 0;
+                Instantiate(bullet, firePos).transform.SetParent(bulletTrans);
+            }
         }
+
+        shieldParent.Rotate(Vector3.back * Time.deltaTime * 30f);
     }
 
     void Move()
