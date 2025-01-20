@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    protected float speed;
     protected int enemyNum;
 
     protected Player p;
@@ -50,8 +49,14 @@ public class Enemy : MonoBehaviour
             data.hp -= 20;
             if (data.hp <= 0)
             {
+                Dead();
                 Destroy(e.gameObject);
             }
         }
+    }
+
+    void Dead()
+    {
+
     }
 }

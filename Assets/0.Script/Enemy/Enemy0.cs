@@ -9,14 +9,15 @@ public class Enemy0 : Enemy
     {
         data.speed = 1.5f;
         data.hp = 60;
+        data.exp = 2;
 
         sa = GetComponent<SpriteAnimation>();
         sr = GetComponent<SpriteRenderer>();
 
-        speed = 1;
+        data.speed = 1;
         enemyNum = 0;
 
         List<Sprite> sprite = ResManager.Instance.enemySprite[0].charSprite.runSprite.ToList();
-        sa.SetSprite(sprite,0.25f/speed );
+        sa.SetSprite(sprite,0.25f/ data.speed);
     }
 }

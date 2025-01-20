@@ -29,4 +29,6 @@ public class ResManager : Singleton<ResManager>
     public CharacterSprite[] enemySprite;
 
     public List<Sprite> playerBulletSprite;
+    public List<Sprite> uiProfileIcon;
+    
 }

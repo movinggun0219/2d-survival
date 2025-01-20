@@ -8,18 +8,25 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform shieldParent;
     [SerializeField] private Bullet bullet;
     [SerializeField] private Transform bulletTrans;
+
     SpriteAnimation sa;
-    
     GameManager gm;
 
     int charNum = 0;
     float fireTimer = 0;
-
     public float delay;
 
-    
+    [HideInInspector] public PlayerData data = new PlayerData();
+
     void Start()
     {
+        data.Speed = 3;
+        data.Hp = 50;
+        data.Exp = 2;
+        data.MaxExp = 120f;
+        data.Level = 1;
+
+
         sa = GetComponent<SpriteAnimation>();
         charNum = GameManager.Instance.selectNum;
         sa.SetSprite(ResManager.Instance.charSprite[charNum].charSprite.standSprite.ToList(),0.2f);
@@ -96,5 +103,9 @@ public class Player : MonoBehaviour
         Vector2 vec = trans.localPosition - trans.position;
         float angle = Mathf.Atan2(vec.x, vec.y) * Mathf.Rad2Deg;
         firePos.rotation = Quaternion.AngleAxis(angle + 90, Vector3.forward);
+    }
+    public void SetExp(float exp)
+    {
+        data.Exp += exp;
     }
 }
