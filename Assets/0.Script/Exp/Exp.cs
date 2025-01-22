@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Exp : MonoBehaviour
 {
-    [SerializeField] protected float exp;
+    protected float exp;
     [SerializeField] private Player p;
 
     private bool isFind = false;

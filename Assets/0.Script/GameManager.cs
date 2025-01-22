@@ -40,6 +40,17 @@ public class PlayerData
             if(FindUI() != null)
             {
                 exp = value;
+
+                //경험치 풀 
+                if(exp >= MaxExp)
+                {
+                    exp -= MaxExp;
+                    MaxExp += 20;
+                    Level++;
+
+                }
+
+
                 ui.UIExp(exp,MaxExp);
             }
         }

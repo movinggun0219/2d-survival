@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-public class Enemy0 : Enemy
+public class Enemy4 : Enemy
 {
-    
+
     void Start()
     {
         data.speed = ableData.Speed;
@@ -15,9 +15,9 @@ public class Enemy0 : Enemy
         sr = GetComponent<SpriteRenderer>();
 
         data.speed = 1;
-        enemyNum = 0;
+        enemyNum = 4;
 
         List<Sprite> sprite = ResManager.Instance.enemySprite[enemyIndex].charSprite.runSprite.ToList();
-        sa.SetSprite(sprite,0.25f/ data.speed);
+        sa.SetSprite(sprite, 0.25f / data.speed);
     }
 }

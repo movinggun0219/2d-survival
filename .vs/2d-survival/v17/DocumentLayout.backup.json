@@ -3,52 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\2d-survival\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\2d-survival\\assets\\0.script\\exp\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\exp\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\2d-survival\\assets\\0.script\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemy0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemy0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\2d-survival\\assets\\8.data\\item\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\8.data\\item\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\resmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\resmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\8.data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\8.data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemy3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemy3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemy4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemy4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemy1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemy1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\enemy\\enemy0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\enemy\\enemy0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\spriteanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\spriteanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\exp\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\exp\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\followcam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\followcam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\2d-survival\\assets\\0.script\\spriteanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C7E9E8D-506F-ABBC-7AAF-D00E9F589035}|Assembly-CSharp.csproj|solutionrelative:assets\\0.script\\spriteanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,84 +82,184 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "Exp.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Exp\\Exp.cs",
               "RelativeDocumentMoniker": "Assets\\0.Script\\Exp\\Exp.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Exp\\Exp.cs",
               "RelativeToolTip": "Assets\\0.Script\\Exp\\Exp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T12:00:05.119Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\0.Script\\GameManager.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:23:28.237Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\0.Script\\Enemy\\Enemy.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Assets\\0.Script\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDsAAAAAAAAAAAAAAA==",
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\8.Data\\item\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\8.Data\\item\\Item.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\8.Data\\item\\Item.cs",
+              "RelativeToolTip": "Assets\\8.Data\\item\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T11:31:21.893Z"
+              "WhenOpened": "2025-01-21T12:17:32.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Enemy4.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy4.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\Enemy\\Enemy4.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy4.cs",
+              "RelativeToolTip": "Assets\\0.Script\\Enemy\\Enemy4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:06:08.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemy3.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy3.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\Enemy\\Enemy3.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy3.cs",
+              "RelativeToolTip": "Assets\\0.Script\\Enemy\\Enemy3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:06:07.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy2.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy2.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\Enemy\\Enemy2.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy2.cs",
+              "RelativeToolTip": "Assets\\0.Script\\Enemy\\Enemy2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:06:05.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enemy1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy1.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\Enemy\\Enemy1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy1.cs",
+              "RelativeToolTip": "Assets\\0.Script\\Enemy\\Enemy1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:06:03.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Enemy0.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy0.cs",
               "RelativeDocumentMoniker": "Assets\\0.Script\\Enemy\\Enemy0.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy0.cs",
               "RelativeToolTip": "Assets\\0.Script\\Enemy\\Enemy0.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T11:31:41.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\0.Script\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:31:21.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\Bullet.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Bullet.cs",
+              "RelativeToolTip": "Assets\\0.Script\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:19:41.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\Player.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Player.cs",
+              "RelativeToolTip": "Assets\\0.Script\\Player.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:30:39.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Shield.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Shield.cs",
+              "RelativeDocumentMoniker": "Assets\\0.Script\\Shield.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Shield.cs",
+              "RelativeToolTip": "Assets\\0.Script\\Shield.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:00:29.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\0.Script\\Enemy\\EnemyManager.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Enemy\\EnemyManager.cs",
               "RelativeToolTip": "Assets\\0.Script\\Enemy\\EnemyManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T11:36:36.65Z"
+              "WhenOpened": "2025-01-20T11:36:36.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\8.Data\\Item.cs",
-              "RelativeDocumentMoniker": "Assets\\8.Data\\Item.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\8.Data\\Item.cs",
-              "RelativeToolTip": "Assets\\8.Data\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T12:18:46.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "UI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\UI.cs",
               "RelativeDocumentMoniker": "Assets\\0.Script\\UI.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\UI.cs",
               "RelativeToolTip": "Assets\\0.Script\\UI.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvykAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAWwDoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T12:13:09.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ResManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\ResManager.cs",
               "RelativeDocumentMoniker": "Assets\\0.Script\\ResManager.cs",
@@ -155,47 +267,24 @@
               "RelativeToolTip": "Assets\\0.Script\\ResManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:13:14.945Z"
+              "WhenOpened": "2025-01-14T12:13:14.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\0.Script\\Bullet.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Bullet.cs",
-              "RelativeToolTip": "Assets\\0.Script\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:19:41.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\0.Script\\Player.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Player.cs",
-              "RelativeToolTip": "Assets\\0.Script\\Player.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAlwBwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T11:30:39.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "SpriteAnimation.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\SpriteAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\0.Script\\SpriteAnimation.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\SpriteAnimation.cs",
               "RelativeToolTip": "Assets\\0.Script\\SpriteAnimation.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAUwAwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwDYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T12:32:23.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "FollowCam.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\FollowCam.cs",
               "RelativeDocumentMoniker": "Assets\\0.Script\\FollowCam.cs",
@@ -207,19 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\0.Script\\GameManager.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\GameManager.cs",
-              "RelativeToolTip": "Assets\\0.Script\\GameManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T11:23:28.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Select.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Select.cs",
               "RelativeDocumentMoniker": "Assets\\0.Script\\Select.cs",
@@ -228,30 +305,6 @@
               "ViewState": "AgIAABAAAAAAAAAAAAAAwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T10:58:26.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Title.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Title.cs",
-              "RelativeDocumentMoniker": "Assets\\0.Script\\Title.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\Title.cs",
-              "RelativeToolTip": "Assets\\0.Script\\Title.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T10:58:19.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SceneChanger.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\SceneChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\0.Script\\SceneChanger.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\2d-survival\\Assets\\0.Script\\SceneChanger.cs",
-              "RelativeToolTip": "Assets\\0.Script\\SceneChanger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T10:58:02.175Z"
             }
           ]
         },

@@ -9,6 +9,13 @@ public class Player : MonoBehaviour
     [SerializeField] private Bullet bullet;
     [SerializeField] private Transform bulletTrans;
 
+    [Header("쉴드 세팅")]
+    [SerializeField] private GameObject shieldPrefab; // 쉴드 프리팹
+    [SerializeField] private float shieldRadius = 2f; // 쉴드 반경
+    [SerializeField] private float shieldRotationSpeed = 30f; // 쉴드 회전 속도
+
+    private List<GameObject> shields = new List<GameObject>(); // 생성된 쉴드 관리 리스트
+
     SpriteAnimation sa;
     GameManager gm;
 
@@ -23,7 +30,7 @@ public class Player : MonoBehaviour
         data.Speed = 3;
         data.Hp = 50;
         data.Exp = 2;
-        data.MaxExp = 120f;
+        data.MaxExp = 50f;
         data.Level = 1;
 
 
@@ -49,7 +56,16 @@ public class Player : MonoBehaviour
             }
         }
 
-        shieldParent.Rotate(Vector3.back * Time.deltaTime * 30f);
+
+        //shieldParent.Rotate(Vector3.back * Time.deltaTime * shieldRotationSpeed);
+
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            AddShield();
+        }
+
+        // 쉴드 위치 갱신
+        UpdateShieldPositions();
     }
 
     void Move()
@@ -100,9 +116,39 @@ public class Player : MonoBehaviour
     }
     void SetRotFirePos(Transform trans)
     {
-        Vector2 vec = trans.localPosition - trans.position;
-        float angle = Mathf.Atan2(vec.x, vec.y) * Mathf.Rad2Deg;
+        // 타켓을 찾아 방향 전환
+        Vector2 vec = transform.position - trans.position;
+        float angle = Mathf.Atan2(vec.y, vec.x) * Mathf.Rad2Deg;
         firePos.rotation = Quaternion.AngleAxis(angle + 90, Vector3.forward);
+    }
+    void AddShield()
+    {
+        // 쉴드 프리팹 생성
+        GameObject newShield = Instantiate(shieldPrefab,shieldParent);
+        shields.Add(newShield);
+
+        // 위치 갱신
+        UpdateShieldPositions();
+    }
+
+    void UpdateShieldPositions()
+    {
+        // 쉴드를 원형으로 배치
+        int shieldCount = shields.Count;
+        for (int i = 0; i < shieldCount; i++)
+        {
+            float angle = (360f / shieldCount) * i; // 각도 계산
+            float radian = angle * Mathf.Deg2Rad;
+
+            Vector3 newPosition = new Vector3(
+                Mathf.Cos(radian) * shieldRadius,
+                Mathf.Sin(radian) * shieldRadius,
+                0
+            );
+            shields[i].transform.localPosition = newPosition;
+            shields[i].transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        shieldParent.Rotate(Vector3.back * Time.deltaTime * shieldRotationSpeed);
     }
     public void SetExp(float exp)
     {

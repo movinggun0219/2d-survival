@@ -41,6 +41,7 @@ public class UI : MonoBehaviour
 
     public List<Image> invenImgs;
 
+
     void Start()
     {
         // 캐릭터 얼굴 변경
