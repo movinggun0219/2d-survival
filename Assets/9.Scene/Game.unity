@@ -4470,7 +4470,6 @@ MonoBehaviour:
   shieldPrefab: {fileID: 3815565218395047845, guid: 3d9a7a2bea5a34243a19bb47ee19cbc3, type: 3}
   shieldRadius: 2
   shieldRotationSpeed: 30
-  delay: 1
 --- !u!212 &252993960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17574,7 +17573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charSprite:
-  - name: 
+  - name: "\uC300\uB18D\uBD80"
     charSprite:
       deadSprite:
       - {fileID: 2129895255, guid: 99a24620d31e5ce4e823c32d11e17c2c, type: 3}
@@ -17592,7 +17591,7 @@ MonoBehaviour:
       - {fileID: -1746337116, guid: 99a24620d31e5ce4e823c32d11e17c2c, type: 3}
       - {fileID: 1568079989, guid: 99a24620d31e5ce4e823c32d11e17c2c, type: 3}
       - {fileID: -515329287, guid: 99a24620d31e5ce4e823c32d11e17c2c, type: 3}
-  - name: 
+  - name: "\uBCF4\uB9AC\uB18D\uBD80"
     charSprite:
       deadSprite:
       - {fileID: 1375599644, guid: 0c187a32c5bde4747be8d00770b07403, type: 3}
@@ -17610,7 +17609,7 @@ MonoBehaviour:
       - {fileID: -1592204662, guid: 0c187a32c5bde4747be8d00770b07403, type: 3}
       - {fileID: 1438553564, guid: 0c187a32c5bde4747be8d00770b07403, type: 3}
       - {fileID: 381631601, guid: 0c187a32c5bde4747be8d00770b07403, type: 3}
-  - name: 
+  - name: "\uAC10\uC790\uB18D\uBD80"
     charSprite:
       deadSprite:
       - {fileID: 1191623988, guid: 8f7a60065e3984c489b9c4d41bc3dc4e, type: 3}
@@ -17628,7 +17627,7 @@ MonoBehaviour:
       - {fileID: 1876572452, guid: 8f7a60065e3984c489b9c4d41bc3dc4e, type: 3}
       - {fileID: 1450094454, guid: 8f7a60065e3984c489b9c4d41bc3dc4e, type: 3}
       - {fileID: -691204398, guid: 8f7a60065e3984c489b9c4d41bc3dc4e, type: 3}
-  - name: 
+  - name: "\uCF69\uB18D\uBD80"
     charSprite:
       deadSprite:
       - {fileID: 369909130, guid: 57a1443e67528144aa07582927559650, type: 3}
@@ -17802,8 +17801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectNum: 0
-  playerSpeed: 5
   cState: 0
+  gameState: 0
 --- !u!4 &1797811420
 Transform:
   m_ObjectHideFlags: 0
@@ -17869,10 +17868,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies:
   - {fileID: 2378573878468757648, guid: 592239471abf2af4da1915afb53cafaf, type: 3}
-  - {fileID: 4461328481433377689, guid: 1963099a355872243bcc252cc9dd7739, type: 3}
-  - {fileID: 4555102180587243896, guid: efc6a394777659d43a068566aeb9510d, type: 3}
-  - {fileID: 7486022000238509025, guid: 89bd851e9da6b3c4d98c64102ccb184d, type: 3}
-  - {fileID: 4051308637394519576, guid: 5e9f682f09a22a84b840aaf4663989de, type: 3}
+  - {fileID: -4992665966068249278, guid: 1963099a355872243bcc252cc9dd7739, type: 3}
+  - {fileID: 2160035251318881481, guid: efc6a394777659d43a068566aeb9510d, type: 3}
+  - {fileID: 8422918149170394499, guid: 89bd851e9da6b3c4d98c64102ccb184d, type: 3}
+  - {fileID: -5630862786823994480, guid: 5e9f682f09a22a84b840aaf4663989de, type: 3}
   delay: 3
 --- !u!1 &2136578626
 GameObject:

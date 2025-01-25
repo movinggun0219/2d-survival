@@ -39,6 +39,6 @@ public class Title : MonoBehaviour
 
     public void Onselect()
     {
-        SceneChanger.Instance.CharactorSelet();
+        SceneChanger.Instance.CharacterSelect();
     }    
 }

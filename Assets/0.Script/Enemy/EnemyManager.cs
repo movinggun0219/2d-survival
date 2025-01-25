@@ -24,6 +24,10 @@ public class EnemyManager : MonoBehaviour
 
     private void Update()
     {
+        if (GameManager.Instance.gameState == GameState.Stop)
+        {
+            return;
+        }
         timer += Time.deltaTime;
         if(timer > delay )
         {

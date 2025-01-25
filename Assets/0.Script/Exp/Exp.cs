@@ -18,7 +18,11 @@ public abstract class Exp : MonoBehaviour
    
     void Update()
     {
-        if(p == null)
+        if (GameManager.Instance.gameState == GameState.Stop)
+        {
+            return;
+        }
+        if (p == null)
         {
             p = GameManager.Instance.P;
             return;

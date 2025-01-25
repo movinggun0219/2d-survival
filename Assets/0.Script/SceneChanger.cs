@@ -10,7 +10,7 @@ public class SceneChanger : Singleton<SceneChanger>
         DontDestroyOnLoad(gameObject);
     }
 
-    public void CharactorSelet()
+    public void CharacterSelect()
     {
         SceneManager.LoadScene("Select");    
     }

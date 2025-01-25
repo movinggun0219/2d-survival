@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System.Data;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Transform firePos;
@@ -21,26 +22,46 @@ public class Player : MonoBehaviour
 
     int charNum = 0;
     float fireTimer = 0;
-    public float delay;
 
     [HideInInspector] public PlayerData data = new PlayerData();
 
     void Start()
     {
-        data.Speed = 3;
-        data.Hp = 50;
-        data.Exp = 2;
+        // 캐릭터 기본세팅
+        data.Speed = data.BaseSpeed = 3;
+        data.HP = data.MaxHP = 50;
+        data.Exp = 0;
         data.MaxExp = 50f;
         data.Level = 1;
-
+        data.AtkDelay = 2f;
+        data.Power = 10;
 
         sa = GetComponent<SpriteAnimation>();
         charNum = GameManager.Instance.selectNum;
         sa.SetSprite(ResManager.Instance.charSprite[charNum].charSprite.standSprite.ToList(),0.2f);
+
+        switch(charNum)
+        {
+            case 0:
+                data.Speed += (data.BaseSpeed *0.1f);
+                break;
+            case 1:
+                data.AtkDelay -= (data.AtkDelay * 0.1f);
+                break;
+            case 2:
+                data.Power += (int)((float)data.Power * 0.2f);
+                break;
+            case 3:
+                break;
+        }
     }
 
     void Update()
     {
+        if (GameManager.Instance.gameState == GameState.Stop)
+        {
+            return;
+        }
         Move();
 
         Enemy[] enemies = FindObjectsOfType<Enemy>();
@@ -48,18 +69,45 @@ public class Player : MonoBehaviour
         fireTimer += Time.deltaTime;
         if (enemies.Length != 0)
         {
-            SetRotFirePos(enemies[0].transform);
-            if (fireTimer > delay)
+            //가까운 적 찾기 
+            float dis = 5;
+            Enemy e = null;
+            foreach(var enemy in enemies)
             {
-                fireTimer = 0;
-                Instantiate(bullet, firePos).transform.SetParent(bulletTrans);
+                if(enemy.data.hp <= 0)
+                {
+                    continue;
+                }
+                float distance = Vector2.Distance(transform.position,enemy.transform.position);
+                if (distance < dis)
+                {
+                    dis = distance;
+                    e = enemy;  
+                }
+            }
+
+            if(e!= null)
+            {
+                SetRotFirePos(e.transform);
+                if (fireTimer > GameManager.Instance.P.data.AtkDelay)
+                {
+                    fireTimer = 0;
+                    Bullet b = Instantiate(bullet, firePos);
+                    b.transform.SetParent(bulletTrans);
+                    b.Power = data.Power;
+                }
             }
         }
-
 
         //shieldParent.Rotate(Vector3.back * Time.deltaTime * shieldRotationSpeed);
 
         if (Input.GetKeyDown(KeyCode.F2))
+        {
+            AddShield();
+        }
+
+        //쉴드 뺴기
+        if (Input.GetKeyDown(KeyCode.F3))
         {
             AddShield();
         }
@@ -70,8 +118,8 @@ public class Player : MonoBehaviour
 
     void Move()
     {
-        float x = Input.GetAxisRaw("Horizontal") * Time.deltaTime * GameManager.Instance.playerSpeed;
-        float y = Input.GetAxisRaw("Vertical") * Time.deltaTime * GameManager.Instance.playerSpeed;
+        float x = Input.GetAxisRaw("Horizontal") * Time.deltaTime * GameManager.Instance.P.data.Speed;
+        float y = Input.GetAxisRaw("Vertical") * Time.deltaTime * GameManager.Instance.P.data.Speed;
 
         float cX = Mathf.Clamp(transform.position.x + x, -19.5f, 19.5f);
         float cY = Mathf.Clamp(transform.position.y + y, -19.5f, 19.5f);
@@ -101,7 +149,7 @@ public class Player : MonoBehaviour
                 {
                     gm.cState = CharacterState.Run;
                     List<Sprite> sprite = ResManager.Instance.charSprite[charNum].charSprite.runSprite.ToList();
-                    sa.SetSprite(sprite, 0.5f / GameManager.Instance.playerSpeed);
+                    sa.SetSprite(sprite, 0.5f / GameManager.Instance.P.data.Speed);
                 }
             }
             else
@@ -121,7 +169,7 @@ public class Player : MonoBehaviour
         float angle = Mathf.Atan2(vec.y, vec.x) * Mathf.Rad2Deg;
         firePos.rotation = Quaternion.AngleAxis(angle + 90, Vector3.forward);
     }
-    void AddShield()
+    public void AddShield()
     {
         // 쉴드 프리팹 생성
         GameObject newShield = Instantiate(shieldPrefab,shieldParent);
@@ -130,6 +178,12 @@ public class Player : MonoBehaviour
         // 위치 갱신
         UpdateShieldPositions();
     }
+    // 빼기
+    /*void Removeshield()
+    {
+        GameObject newShield = Instantiate(shieldPrefab, shieldParent);
+        shields.Add(newShield);
+    }*/
 
     void UpdateShieldPositions()
     {
@@ -153,5 +207,15 @@ public class Player : MonoBehaviour
     public void SetExp(float exp)
     {
         data.Exp += exp;
+    }
+    public void Damage(int damage)
+    {
+        data.HP -= damage;
+
+        if (data.HP <= 0)
+        {
+            //Time.timeScale = 0;
+            GameManager.Instance.FindUI().ShowDeadUI();
+        }
     }
 }

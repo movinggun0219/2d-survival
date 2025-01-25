@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Enemy ", menuName = "Data/Enemy")]
-
-
 public class EnemyableData : ScriptableObject
 {
     [SerializeField] private float speed;
-
     public float Speed
     {
         get { return speed; }
@@ -17,6 +14,7 @@ public class EnemyableData : ScriptableObject
             speed = value;
         }
     }
+
     [SerializeField] private int hp;
     public int HP
     {
@@ -26,6 +24,7 @@ public class EnemyableData : ScriptableObject
             hp = value;
         }
     }
+
     [SerializeField] private float exp;
     public float Exp
     {
@@ -33,6 +32,36 @@ public class EnemyableData : ScriptableObject
         set
         {
             exp = value;
+        }
+    }
+
+    [SerializeField] private float atkSpeed;
+    public float AtkSpeed
+    {
+        get { return atkSpeed; }
+        set
+        {
+            atkSpeed = value;
+        }
+    }
+
+    [SerializeField] private float atkRange;
+    public float AtkRange
+    {
+        get { return atkRange; }
+        set
+        {
+            atkRange = value;
+        }
+    }
+
+    [SerializeField] private int power;
+    public int Power
+    {
+        get { return power; }
+        set
+        {
+            power = value;
         }
     }
 }

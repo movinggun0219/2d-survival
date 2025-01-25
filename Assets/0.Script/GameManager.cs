@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public enum CharacterState
 {
     Stand,
@@ -12,24 +11,51 @@ public enum CharacterState
 
 public class PlayerData
 {
+    public int Power {  get; set; } 
+    public float AtkDelay {  get; set; }
+
+    public float BaseSpeed { get; set; }
+
     private float speed;
     public float Speed
     {
         get { return speed; }
-        set 
+        set
         {
             speed = value;
         }
     }
+
     private int hp;
-    public int Hp
+    public int HP
     {
         get { return hp; }
         set
         {
             hp = value;
+            UI ui = FindUI();
+            if (ui != null)
+            {
+                ui.ReflushHP();
+            }
         }
     }
+
+    private int maxHP;
+    public int MaxHP
+    {
+        get { return maxHP; }
+        set
+        {
+            maxHP = value;
+            UI ui = FindUI();
+            if (ui != null)
+            {
+                ui.ReflushHP(false);
+            }
+        }
+    }
+
     private float exp;
     public float Exp
     {
@@ -37,33 +63,43 @@ public class PlayerData
         set
         {
             UI ui = FindUI();
-            if(FindUI() != null)
+            if (ui != null)
             {
                 exp = value;
 
-                //경험치 풀 
-                if(exp >= MaxExp)
+                // 경험치 풀 - 수정 필요
+                if (exp >= MaxExp)
                 {
                     exp -= MaxExp;
                     MaxExp += 20;
                     Level++;
-
                 }
 
-
-                ui.UIExp(exp,MaxExp);
+                ui.UIExp(exp, MaxExp);
             }
         }
     }
     public float MaxExp { get; set; }
-    
-    private float level;
-    public float Level
+
+    private int level;
+    public int Level
     {
         get { return level; }
         set
         {
             level = value;
+            if(level>1)
+            {
+                UI ui = FindUI();
+                if (ui != null)
+                {
+                    GameManager.Instance.gameState = GameState.Stop;
+                    ui.UILevel(level);
+                    ui.ShowLevelUP();
+                }
+            }
+           
+            
         }
     }
 
@@ -77,6 +113,24 @@ public class PlayerData
         }
     }
 
+
+    private int killCnt;
+    public int KillCnt
+    {
+        get { return killCnt; }
+        set
+        {
+            killCnt = value;
+            UI ui = FindUI();
+            if(ui != null)
+            {
+                ui.UIKillCount(killCnt);
+            }
+        }
+    }
+
+
+
     UI FindUI()
     {
         return GameObject.FindObjectOfType<UI>();
@@ -88,14 +142,24 @@ public class EnemyData
     public float speed;
     public int hp;
     public float exp;
+    public float atkRange;
+    public float atkSpeed;
+    public int power;
+}
+
+public enum GameState
+{
+    Play,Stop
 }
 
 public class GameManager : Singleton<GameManager>
 {
     public int selectNum = 0;
-    public float playerSpeed = 0;
 
     public CharacterState cState = CharacterState.Stand;
+    public GameState gameState = GameState.Play;
+
+    // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -106,11 +170,16 @@ public class GameManager : Singleton<GameManager>
     {
         get
         {
-            if(p == null)
+            if (p == null)
             {
                 p = FindObjectOfType<Player>();
             }
             return p;
         }
+    }
+
+    public UI FindUI()
+    {
+        return GameObject.FindObjectOfType<UI>();
     }
 }
